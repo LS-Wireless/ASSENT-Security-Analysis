@@ -1,0 +1,58 @@
+{
+  "arch": "gatv2",
+  "tag": "repro",
+  "attack": "gain_targeted",
+  "a_star": 3,
+  "n_test": 1000,
+  "defense": false,
+  "rows": [
+    {
+      "kappa": 1.0,
+      "infeas_pct": 73.5,
+      "atk_users": 2.763,
+      "atk_share": 0.1448546130621104,
+      "atk_rfload": 3.435,
+      "coverage": 8.194
+    },
+    {
+      "kappa": 2.0,
+      "infeas_pct": 70.6,
+      "atk_users": 2.813,
+      "atk_share": 0.14822992953369413,
+      "atk_rfload": 3.507,
+      "coverage": 8.18
+    },
+    {
+      "kappa": 4.0,
+      "infeas_pct": 71.3,
+      "atk_users": 2.9,
+      "atk_share": 0.1531996218249701,
+      "atk_rfload": 3.624,
+      "coverage": 8.18
+    },
+    {
+      "kappa": 8.0,
+      "infeas_pct": 71.0,
+      "atk_users": 2.958,
+      "atk_share": 0.1565913665841012,
+      "atk_rfload": 3.701,
+      "coverage": 8.167
+    },
+    {
+      "kappa": 16.0,
+      "infeas_pct": 71.8,
+      "atk_users": 2.953,
+      "atk_share": 0.1571332644794152,
+      "atk_rfload": 3.707,
+      "coverage": 8.157
+    },
+    {
+      "kappa": 32.0,
+      "infeas_pct": 72.0,
+      "atk_users": 2.937,
+      "atk_share": 0.15705558105389872,
+      "atk_rfload": 3.701,
+      "coverage": 8.143
+    }
+  ]
+}

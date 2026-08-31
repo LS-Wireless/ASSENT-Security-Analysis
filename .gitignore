@@ -1,0 +1,76 @@
+# ---------------------------------------------------------------------------
+# Local-only material (never pushed): working notes, paper drafts and sources,
+# reviewer packets, assistant/agent scratch files, anything not meant to be public.
+# ---------------------------------------------------------------------------
+local/
+draft/
+draft2/
+paper/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# ---------------------------------------------------------------------------
+# Assistant / agent files
+# ---------------------------------------------------------------------------
+.claude/
+.claude.json
+CLAUDE.md
+AGENTS.md
+.mcp.json
+.cursor/
+.aider*
+
+# ---------------------------------------------------------------------------
+# Upstream ASSENT clone (fetch it yourself, see README)
+# ---------------------------------------------------------------------------
+upstream/
+
+# ---------------------------------------------------------------------------
+# Large or regenerable artifacts
+# ---------------------------------------------------------------------------
+cache_graphs/
+*.pt
+*.pth
+*.pkl
+*.npz
+*.npy
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ---------------------------------------------------------------------------
+# Figures: the four panels published in the paper are tracked; anything else
+# the figure scripts emit is not.
+# ---------------------------------------------------------------------------
+figures/*
+!figures/fig1_feasibility.*
+!figures/fig2_attack.*
+!figures/fig3_defense.*
+
+# ---------------------------------------------------------------------------
+# Editors and OS
+# ---------------------------------------------------------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

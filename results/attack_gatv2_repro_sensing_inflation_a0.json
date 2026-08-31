@@ -1,0 +1,76 @@
+{
+  "arch": "gatv2",
+  "tag": "repro",
+  "attack": "sensing_inflation",
+  "a_star": 0,
+  "n_test": 1000,
+  "defense": false,
+  "rows": [
+    {
+      "kappa": 1.0,
+      "infeas_pct": 73.5,
+      "atk_users": 1.567,
+      "atk_share": 0.07292987046750518,
+      "atk_rfload": 3.196,
+      "atk_tx": 0.786,
+      "atk_sens_tx": 1.629,
+      "atk_sens_rx": 0.762,
+      "coverage": 8.194
+    },
+    {
+      "kappa": 2.0,
+      "infeas_pct": 69.8,
+      "atk_users": 1.588,
+      "atk_share": 0.07377880584590822,
+      "atk_rfload": 3.237,
+      "atk_tx": 0.788,
+      "atk_sens_tx": 1.649,
+      "atk_sens_rx": 0.737,
+      "coverage": 8.206
+    },
+    {
+      "kappa": 4.0,
+      "infeas_pct": 69.7,
+      "atk_users": 1.603,
+      "atk_share": 0.07420024259800781,
+      "atk_rfload": 3.26,
+      "atk_tx": 0.794,
+      "atk_sens_tx": 1.657,
+      "atk_sens_rx": 0.737,
+      "coverage": 8.203
+    },
+    {
+      "kappa": 8.0,
+      "infeas_pct": 69.8,
+      "atk_users": 1.63,
+      "atk_share": 0.0751225750958209,
+      "atk_rfload": 3.278,
+      "atk_tx": 0.804,
+      "atk_sens_tx": 1.648,
+      "atk_sens_rx": 0.708,
+      "coverage": 8.214
+    },
+    {
+      "kappa": 16.0,
+      "infeas_pct": 71.0,
+      "atk_users": 1.669,
+      "atk_share": 0.07619714243214884,
+      "atk_rfload": 3.269,
+      "atk_tx": 0.807,
+      "atk_sens_tx": 1.6,
+      "atk_sens_rx": 0.682,
+      "coverage": 8.234
+    },
+    {
+      "kappa": 32.0,
+      "infeas_pct": 73.0,
+      "atk_users": 1.674,
+      "atk_share": 0.07634607258310899,
+      "atk_rfload": 3.222,
+      "atk_tx": 0.809,
+      "atk_sens_tx": 1.548,
+      "atk_sens_rx": 0.668,
+      "coverage": 8.248
+    }
+  ]
+}

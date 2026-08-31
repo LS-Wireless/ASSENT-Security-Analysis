@@ -1,0 +1,31 @@
+{
+  "arch": "nnconv",
+  "n": 1000,
+  "tightness": {
+    "mean_ap_load": 3.1875,
+    "pct_aps_saturated": 69.33749999999999,
+    "pct_scn_with_sat": 100.0,
+    "mean_users_served": 8.148,
+    "mean_alpha": 0.4940869699998483
+  },
+  "violations": {
+    "mean_per_invalid": 2.8959537572254335,
+    "pct_eq1": 35.26011560693642,
+    "pct_le2": 58.52601156069365,
+    "mean_rf_overflow": 1.153179190751445,
+    "infeasible_pct": 69.2
+  },
+  "U_milp": 4.156155782143756,
+  "obj_gap_pct": {
+    "raw": 0.6971037993524049,
+    "ilp": -0.021990218498887742,
+    "greedy": -0.11847744515592207,
+    "greedy_infeasible_left": 0
+  },
+  "obj_abs": {
+    "milp": 4.156155782143756,
+    "raw": 4.185128502008085,
+    "ilp": 4.155241834406109,
+    "greedy": 4.151231674956372
+  }
+}

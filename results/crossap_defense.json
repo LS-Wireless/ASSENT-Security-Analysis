@@ -1,0 +1,60 @@
+{
+  "a_star": 0,
+  "n": 1000,
+  "rows": [
+    {
+      "kappa": 1,
+      "nodef_inf": 73.5,
+      "repaironly_inf": 0.0,
+      "crossap_inf": 0.0,
+      "detect_pct": 0.0,
+      "falsealarm_pct": 1.0,
+      "crossap_atk_users": 1.509
+    },
+    {
+      "kappa": 2,
+      "nodef_inf": 74.3,
+      "repaironly_inf": 8.9,
+      "crossap_inf": 8.4,
+      "detect_pct": 5.5,
+      "falsealarm_pct": 5.5,
+      "crossap_atk_users": 1.515
+    },
+    {
+      "kappa": 4,
+      "nodef_inf": 79.0,
+      "repaironly_inf": 10.4,
+      "crossap_inf": 3.4,
+      "detect_pct": 99.1,
+      "falsealarm_pct": 99.1,
+      "crossap_atk_users": 1.395
+    },
+    {
+      "kappa": 8,
+      "nodef_inf": 81.6,
+      "repaironly_inf": 11.0,
+      "crossap_inf": 3.7,
+      "detect_pct": 100.0,
+      "falsealarm_pct": 100.0,
+      "crossap_atk_users": 1.394
+    },
+    {
+      "kappa": 16,
+      "nodef_inf": 82.5,
+      "repaironly_inf": 11.8,
+      "crossap_inf": 3.8,
+      "detect_pct": 100.0,
+      "falsealarm_pct": 100.0,
+      "crossap_atk_users": 1.376
+    },
+    {
+      "kappa": 32,
+      "nodef_inf": 83.7,
+      "repaironly_inf": 12.2,
+      "crossap_inf": 3.9,
+      "detect_pct": 100.0,
+      "falsealarm_pct": 100.0,
+      "crossap_atk_users": 1.386
+    }
+  ]
+}

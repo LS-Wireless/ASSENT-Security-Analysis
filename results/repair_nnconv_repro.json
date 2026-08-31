@@ -1,0 +1,46 @@
+{
+  "arch": "nnconv",
+  "tag": "repro",
+  "n_test": 1000,
+  "raw_infeasible_pct": 69.2,
+  "rep_infeasible_pct": 0.0,
+  "raw_viol_rates": {
+    "infeasible": 69.2,
+    "rf_cap": 54.3,
+    "corr_excl": 22.6,
+    "mode_x_le_tau": 19.0,
+    "tx_le_Ktx_s": 14.3,
+    "mode_ytx_le_tau": 13.0,
+    "rx_le_Krx_s": 4.7,
+    "rx_ge_s": 1.8,
+    "tx_ge_s": 1.0,
+    "mode_yrx_le_1mtau": 0.6
+  },
+  "rep_viol_rates": {},
+  "f1_raw": {
+    "tau": 0.9813174544101229,
+    "x": 0.9101882160392799,
+    "s": 0.9702970297029703,
+    "ytx": 0.8357778719796524,
+    "yrx": 0.9039066463723998
+  },
+  "f1_rep": {
+    "tau": 0.984413090049494,
+    "x": 0.9183024284273411,
+    "s": 0.9692307692307692,
+    "ytx": 0.8392795289227571,
+    "yrx": 0.9059811340313051
+  },
+  "paper_f1": {
+    "tau": 0.985,
+    "x": 0.907,
+    "s": 0.975,
+    "ytx": 0.841,
+    "yrx": 0.919
+  },
+  "U_milp": 4.156155782143756,
+  "U_raw": 4.185128502008085,
+  "U_rep": 4.155241834406109,
+  "repaired_gap_vs_milp_pct": 0.021990218498878666,
+  "raw_exceeds_milp_count": 64
+}

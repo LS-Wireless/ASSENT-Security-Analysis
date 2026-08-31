@@ -1,0 +1,46 @@
+{
+  "attack": "corr_deflation",
+  "colluders": [
+    0,
+    1
+  ],
+  "n": 1000,
+  "rows": [
+    {
+      "kappa": 1,
+      "colluders_users": 3.356,
+      "colluders_load": 5.559,
+      "system_invalid_pct": 73.5
+    },
+    {
+      "kappa": 2,
+      "colluders_users": 3.736,
+      "colluders_load": 6.217,
+      "system_invalid_pct": 79.8
+    },
+    {
+      "kappa": 4,
+      "colluders_users": 3.759,
+      "colluders_load": 6.667,
+      "system_invalid_pct": 87.4
+    },
+    {
+      "kappa": 8,
+      "colluders_users": 3.79,
+      "colluders_load": 6.944,
+      "system_invalid_pct": 89.9
+    },
+    {
+      "kappa": 16,
+      "colluders_users": 3.809,
+      "colluders_load": 7.105,
+      "system_invalid_pct": 91.1
+    },
+    {
+      "kappa": 32,
+      "colluders_users": 3.819,
+      "colluders_load": 7.156,
+      "system_invalid_pct": 91.5
+    }
+  ]
+}

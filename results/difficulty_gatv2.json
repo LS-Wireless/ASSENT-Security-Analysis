@@ -1,0 +1,31 @@
+{
+  "arch": "gatv2",
+  "n": 1000,
+  "tightness": {
+    "mean_ap_load": 3.20475,
+    "pct_aps_saturated": 70.175,
+    "pct_scn_with_sat": 100.0,
+    "mean_users_served": 8.174,
+    "mean_alpha": 0.5159483093224515
+  },
+  "violations": {
+    "mean_per_invalid": 3.0,
+    "pct_eq1": 32.92517006802721,
+    "pct_le2": 56.326530612244895,
+    "mean_rf_overflow": 1.165986394557823,
+    "infeasible_pct": 73.5
+  },
+  "U_milp": 4.285795958653772,
+  "obj_gap_pct": {
+    "raw": 0.16491204676114932,
+    "ilp": -0.04948739006166623,
+    "greedy": -0.09209610955441165,
+    "greedy_infeasible_left": 0
+  },
+  "obj_abs": {
+    "milp": 4.285795958653772,
+    "raw": 4.292863752489194,
+    "ilp": 4.283675030090466,
+    "greedy": 4.281848907312411
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "arch": "nnconv",
+  "tag": "repro",
+  "attack": "sensing_inflation",
+  "a_star": 0,
+  "n_test": 1000,
+  "defense": false,
+  "rows": [
+    {
+      "kappa": 1.0,
+      "infeas_pct": 69.2,
+      "atk_users": 1.622,
+      "atk_share": 0.0743823076799612,
+      "atk_rfload": 3.156,
+      "atk_tx": 0.771,
+      "atk_sens_tx": 1.534,
+      "atk_sens_rx": 0.883,
+      "coverage": 8.112
+    },
+    {
+      "kappa": 2.0,
+      "infeas_pct": 69.9,
+      "atk_users": 1.647,
+      "atk_share": 0.07492713567681426,
+      "atk_rfload": 3.192,
+      "atk_tx": 0.768,
+      "atk_sens_tx": 1.545,
+      "atk_sens_rx": 0.894,
+      "coverage": 8.129
+    },
+    {
+      "kappa": 4.0,
+      "infeas_pct": 72.4,
+      "atk_users": 1.657,
+      "atk_share": 0.07511440090509738,
+      "atk_rfload": 3.186,
+      "atk_tx": 0.766,
+      "atk_sens_tx": 1.529,
+      "atk_sens_rx": 0.887,
+      "coverage": 8.137
+    },
+    {
+      "kappa": 8.0,
+      "infeas_pct": 76.1,
+      "atk_users": 1.667,
+      "atk_share": 0.0754396342536223,
+      "atk_rfload": 3.103,
+      "atk_tx": 0.769,
+      "atk_sens_tx": 1.436,
+      "atk_sens_rx": 0.899,
+      "coverage": 8.138
+    },
+    {
+      "kappa": 16.0,
+      "infeas_pct": 82.3,
+      "atk_users": 1.681,
+      "atk_share": 0.07571928787492672,
+      "atk_rfload": 2.99,
+      "atk_tx": 0.768,
+      "atk_sens_tx": 1.309,
+      "atk_sens_rx": 0.897,
+      "coverage": 8.144
+    },
+    {
+      "kappa": 32.0,
+      "infeas_pct": 87.9,
+      "atk_users": 1.693,
+      "atk_share": 0.07578485570540389,
+      "atk_rfload": 2.93,
+      "atk_tx": 0.765,
+      "atk_sens_tx": 1.237,
+      "atk_sens_rx": 0.906,
+      "coverage": 8.149
+    }
+  ]
+}
