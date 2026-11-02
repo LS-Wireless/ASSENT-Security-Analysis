@@ -2,10 +2,7 @@
 # Local-only material (never pushed): working notes, paper drafts and sources,
 # reviewer packets, assistant/agent scratch files, anything not meant to be public.
 # ---------------------------------------------------------------------------
-local/
-draft/
-draft2/
-paper/
+_local/
 
 # LaTeX build artifacts
 *.aux
